@@ -1,0 +1,34 @@
+# Docker volumes
+prometheus-data/
+grafana-data/
+
+# Logs
+*.log
+alerts.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Screenshots (keep the directory but ignore the actual images for git)
+screenshots/*.png
+screenshots/*.jpg
+!screenshots/.gitkeep
